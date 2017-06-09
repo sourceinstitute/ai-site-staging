@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i" rel="stylesheet">
+  <link href="/assets/css/index.css" rel="stylesheet">
+  <!-- Begin Jekyll SEO tag v2.2.3 -->
+<title>Common Algorithms | Open Source Guides</title>
+<meta property="og:title" content="Common Algorithms">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="Know what’s possible with different algorithms">
+<meta property="og:description" content="Know what’s possible with different algorithms">
+<link rel="canonical" href="http://localhost:4000/common-algorthms/">
+<meta property="og:url" content="http://localhost:4000/common-algorthms/">
+<meta property="og:site_name" content="Open Source Guides">
+<meta property="og:image" content="http://localhost:4000/assets/images/cards/default.png">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2017-06-09T14:42:26+03:00">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@github">
+<meta property="article:publisher" content="https://www.facebook.com/GitHub/">
+<script type="application/ld+json">
+{"@context":"http://schema.org","@type":"BlogPosting","headline":"Common Algorithms","image":"http://localhost:4000/assets/images/cards/default.png","datePublished":"2017-06-09T14:42:26+03:00","dateModified":"2017-06-09T14:42:26+03:00","description":"Know what’s possible with different algorithms","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/common-algorthms/"},"url":"http://localhost:4000/common-algorthms/"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+  <body>
+    <main>
+      <div id="content">
+        <nav class="main-nav">
+  <div class="container-lg edged mx-auto clearfix">
+    <div class="float-sm-right">
+      <ul class="main-links d-flex flex-wrap flex-items-stretch border-left border-bottom border-sm-0 list-style-none">
+        <li class="d-inline-block border-right">
+          <a class="d-block p-3 p-sm-4" href="https://github.com/github/opensource.guide#readme">About</a>
+        </li>
+        <li class="d-inline-block border-right">
+          <a class="d-block p-3 p-sm-4" href="https://github.com/github/opensource.guide/blob/gh-pages/CONTRIBUTING.md">Contribute</a>
+        </li>
+      </ul>
+    </div>
+    <div class="float-sm-left pl-3 breadcrumb">
+      <p class="my-0 py-3 py-sm-4 text-gray">
+        <a href="/" class="text-gray">Open Source Guides</a>
+      </p>
+    </div>
+  </div>
+</nav>
+
+<header class="article-header contribute bg-gray-light">
+  <div class="container-lg mx-auto px-3">
+
+    <h1 class="alt-h1 lh-condensed text-center mb-3">Common Algorithms</h1>
+    <p class="lead text-center text-gray col-md-8 mx-auto mb-4 position-relative">Know what's possible with different algorithms</p>
+    <nav class="toc mb-4 mb-md-6">
+      <div class="card col-sm-8 col-md-4 col-lg-3 mx-auto">
+        <a class="toc-trigger d-block text-center p-3">
+          <span class="text-black">Table of Contents</span><svg height="18" class="octicon octicon-triangle-down ml-2 fill-blue v-align-middle icon-flip" aria-label="open" viewbox="0 0 12 16" version="1.1" width="13" role="img"><path fill-rule="evenodd" d="M0 5l6 6 6-6z"></path></svg>
+        </a>
+        <ol class="toc-list list-style-none">
+          
+          <li class="border-top">
+            <a href="#categories" class="d-block py-3 px-3">The Major Categories</a>
+          </li>
+          
+        </ol>
+      </div>
+    </nav>
+    <div class="col-sm-10 mx-auto lh-none cover-img">
+      <img src="/assets/images/illos/contribute.svg" alt="Common Algorithms Illustration">
+    </div>
+  </div>
+</header>
+
+<article class="pb-md-6">
+  <div class="article-body mx-auto px-3 pt-4 pt-lg-6 pb-6 col-md-10 col-lg-8 col-xl-6">
+    <h1 id="categories">Categories</h1>
+<p>This is a basic outline of the algorithms we’ll be covering in the next three
+lessons. They aim at tackling the problem outlined by Montino and Weber above:
+helping you better compare the capabilities of these AI algorithms.</p>
+
+<h2 id="classification-tell-me-what-category-this-fits-into">Classification (tell me what category this fits into)</h2>
+
+<p>Examples of classification tasks would be giving an algorithm medical data and
+asking it whether the patient has cancer or not. Or, giving an algorithm data
+about your customers and asking it to divide them into categories it will
+create.</p>
+
+<ul>
+  <li>Naive Bayes</li>
+  <li>Support Vector Machine (SVM)</li>
+  <li>K-Nearest Neighbors</li>
+  <li>Random Forest</li>
+  <li>Decision Trees</li>
+  <li>Artificial Neural Networks</li>
+  <li>Logistic Regression</li>
+</ul>
+
+<h2 id="regression-help-me-predict-something-based-on-what-i-know">Regression (help me predict something based on what I know)</h2>
+
+<p>Examples of regression tasks would be, say, giving an algorithm historical
+data on traffic patterns and asking it to predict what will happen if you
+close a specific road for repairs. Or, entering economic data to ask an
+algorithm what the effect of a 20% decline in the price of oil on other
+commodities will be.</p>
+
+<ul>
+  <li>Linear Regression</li>
+  <li>Support Vector Machine (SVM)</li>
+  <li>K-Nearest Neighbors</li>
+  <li>Apriori Algorithm</li>
+  <li>Random Forest</li>
+  <li>Decision Trees</li>
+  <li>Artificial Neural Networks</li>
+</ul>
+
+<h2 id="clustering-tell-me-what-things-are-alike">Clustering (tell me what things are alike)</h2>
+
+<p>Clustering algorithms are best when you don’t just want to know what
+categories data fits into, but how alike or similar they are to everything
+else in that category. For example, you could give a clustering algorithm
+stock data and ask it to create categories of stocks based on their
+performance. Then, based on what clusters they fit into and where they end up
+within those clusters, you could chose where you’d like to invest.</p>
+
+<ul>
+  <li>K Means Clustering</li>
+  <li>Hierarchical Clustering</li>
+</ul>
+
+<h1 id="classification">Classification</h1>
+<p>This lesson breaks down the 6 main AI algorithms which can do this and
+discusses their advantages and disadvantages.</p>
+
+<blockquote>
+  <p>“A good first rule for choosing a method is choose one that you understand
+very well.</p>
+
+</blockquote>
+
+<blockquote>
+  <p>It’s a theoretical fact that none of these methods are universally any
+better than the other, but I’d argue that perhaps more surprisingly there
+isn’t even often a practical difference that is more significant than who is
+using the tool.</p>
+
+</blockquote>
+
+<blockquote>
+  <p>Barring a deep understanding of any of the methods, trees and their various
+ensembles (random forests, rotation forests, bagging) are a good place to
+start because… they have few free parameters and they’re pretty robust to
+common real-world data pathologies like irrelevant features, missing data,
+features of different scales, certain kinds of outliers, and they can handle
+categorical/numerical data side by side.”</p>
+</blockquote>
+
+<blockquote>
+
+</blockquote>
+
+<blockquote>
+  <p>-<a href="https://www.quora.com/profile/Rick-Barber-1">Rick Barber</a></p>
+</blockquote>
+
+<h2 id="naive-bayes-algorithm">Naive Bayes Algorithm</h2>
+
+<p>You give the algorithm a series of categories, it takes new data and places it
+into one of those categories. However, you do need to tell it when it’s
+correct and when it isn’t. The best examples of this are spam filters. Also,
+just like with spam filters, this isn’t a perfect system and errors will
+occur.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Supervised or Unsupervised?</th>
+      <th>Supervised</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Explainable or unexplainable?</td>
+      <td>Explainable</td>
+    </tr>
+    <tr>
+      <td>Generative or Discriminative?</td>
+      <td>Generative</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Used for: document classification and sentiment analysis</p>
+
+<p>Specific Use Cases: spam filters, disease prediction, document classification,
+sentiment analysis.</p>
+
+<p>Requirements: A medium to large data set, less than 100,000 samples generally,
+several attributes to analyze, conditionally independent attributes, a
+balanced data set.</p>
+
+<h2 id="support-vector-machine-svm">Support Vector Machine (SVM)</h2>
+
+<p>This algorithm classifies data by drawing a line between them, maximizing the
+distance between the data and the line. It tends to be very good at not
+overfitting (when an algorithm gets really good at its test data and bad at
+predicting other thigns, check out our <a href="https://medium.com%0A/source-institute/ai-jargon-explained-b43fcedb247d">Jargon file</a> for more on that). So,
+it’s great at accurately classifying new data based on its training set. The
+flip side of this is that it doesn’t perform well with huge data sets or if
+the classes you’re separating your data into overlap. An example might be
+trying to analyze news stories and determine whether they are positive or
+negative based on the words used.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Supervised or Unsupervised?</th>
+      <th>Supervised</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Explainable or unexplainable?</td>
+      <td>Explainable</td>
+    </tr>
+    <tr>
+      <td>Generative or Discriminative?</td>
+      <td>Discriminative</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Used for: Efficiently classifying data and not overfitting based on the
+training data.</p>
+
+<p>Specific Use Cases: Data science libraries, facial expression classification,
+text categorization, speech recognition.</p>
+
+<p>Requirements: As mentioned, you don’t want your data set too large. For
+documents, one example showed performance <a href="https://stats.stackexchange.com/questions/47090/increasing-the-%0Asample-size-does-not-help-the-classification-performance">slowly began to
+decrease</a> once it analyzed
+more than 1,000 documents. You also shouldn’t have overlapping classes. It’s
+better with binary classification overall. You also can’t attribute meaning to
+its decisions because they are unexplainable.</p>
+
+<h2 id="k-nearest-neighbors">K-Nearest Neighbors</h2>
+
+<p><a href="https://www.analyticsvidhya.com/blog/2014/10/introduction-k%0A-neighbours-algorithm-clustering/">Considered the simplest classification
+algorithm</a>, it classifies data points based on the
+classification of nearby data points. Because of its simplicity, it’s very
+fast and the data is very easy to interpret, though its predictive power is
+more average. But <a href="https://mathbabe.org/2013/04/04/k-nearest-neighbors-dangerously-simple/">be careful and scale your
+data</a>
+(so you don’t, for example, have some data on a 1-5 scale while other data is
+on a 0-100 scale, they should all be on the same scale), otherwise this
+algorithm can really lead you astray.</p>
+
+<p>Supervised or Unsupervised? | Supervised<br>
+—|—<br>
+Explainable or unexplainable? |
+<a href="https://books.google.bg/books?id=EKNoKQ1L4CoC&amp;pg=PA548&amp;lpg=PA548&amp;dq=is+Na%C3%AFve+Bayes+Classifier+Algorithm+explainable?&amp;source=bl&amp;ots=hJAd1VBrdp&amp;sig=NA0sggSWCgZOJZYsSUU9DXcsyXo&amp;hl=en&amp;sa=X&amp;ved=0ahUKEwj8_Nj_yvnTAhUFQJoKHYCtBMoQ6AEIRjAG#v=onepage&amp;q=is%20Na%C3%AFve%20Bayes%20Classifier%20Algorithm%20explainable%3F&amp;f=false">Explainable</a><br>
+Generative or Discriminative? | Generative</p>
+
+<p>Used for: simple classification tasks</p>
+
+<p>Specific Use Cases: Gene expression, understanding protein structures and
+interactions, basic classification of items like, say flowers, based on their
+characteristics.</p>
+
+<p>Requirements: Can be done with &lt;100,000 samples, data should be able to be
+represented on a plane, your data is scalable.</p>
+
+<h2 id="decision-trees">Decision Trees</h2>
+
+<p>This algorithm is designed to help you handle uncertainty in classifying
+things. More specifically, they help you better understand how any one change
+affects other factors in classifying things, kind of a big picture
+perspective. <a href="https://www.dezyre.com/article/top-10-machine-learning-%0Aalgorithms/202">It’s also good if your data is
+incomplete</a>.</p>
+
+<p>Supervised or Unsupervised? | <a href="https://www.quora.com/What-are-the-%0Atypical-use-cases-for-different-machine-learning-algorithms">Supervised</a><br>
+—|—<br>
+Explainable or unexplainable? | Explainable<br>
+Generative or Discriminative? | Discriminative</p>
+
+<p>Used for: weighing complex situations with multiple decision-making steps,
+each of which affects what future options are available</p>
+
+<p>Specific Use Cases: option pricing, classifying loan applicants,</p>
+
+<p>Requirements: Should be relatively small, the larger it gets the less accurate
+and usable it gets. Relies on your expectations, which could be wrong. In this
+way, these are very human and fallible versions of AI.</p>
+
+<h2 id="random-forest">Random Forest</h2>
+
+<p>Creates a series of decision trees with small random variations and calculates
+each one. Then, it polls the results to come up with an overall prediction. So
+it has all the same requirements as a regular decision tree algorithm because
+it begins with the same type of data. The big difference is that it helps to
+prevent overfitting, which can be a problem with a single decision tree.</p>
+
+<p>Supervised or Unsupervised? | <a href="https://www.quora.com/What-are-the-%0Atypical-use-cases-for-different-machine-learning-algorithms">Supervised</a><br>
+—|—<br>
+Explainable or unexplainable? | Explainable<br>
+Generative or Discriminative? | Discriminative</p>
+
+<p>Used for: weighing complex situations with multiple decision-making steps,
+each of which affects what future options are available where you want to
+prevent overfitting</p>
+
+<p>Specific Use Cases: classifying loan applications, predicting mechanical
+failures, predict the onset of chronic disease.</p>
+
+<p>Requirements: Super easy to use, lots of open source options,  overfitting
+isn’t really an issue here. Other than that, it has all the same advantages of
+a regular decision tree.</p>
+
+<h2 id="artificial-neural-networks-anns">Artificial Neural Networks (ANNs)</h2>
+
+<p>(Sometimes called Neural Networks, though this technically refers to a broader
+category including things like deep belief networks.) This is probably the
+most famous type of classification algorithm. It broadly mimics the structure
+of the human brain by layering artificial neurons. Each layer chooses a factor
+it determines to be important and uses it to make choices to give better
+outputs. This structure makes ANNs very flexible.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Supervised or Unsupervised?</th>
+      <th>Can be either</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Explainable or unexplainable?</td>
+      <td>Unexplainable</td>
+    </tr>
+    <tr>
+      <td>Generative or Discriminative?</td>
+      <td>Can be either</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Used for: When you need a system to figure out how to classify things and
+don’t care how the system does it.</p>
+
+<p>Specific Use Cases: Character recognition, image compression, stock market
+prediction, application decisions (universities, bank loans, etc.), and many
+more.</p>
+
+<p>Requirements: Difficult to set up, needs thousands of cycles to train itself,
+difficult to troubleshoot when issues arise, but extremely powerful when it
+works (<a href="https://www.extremetech.com/extreme/215170-artificial-neural-networks-are-%0Achanging-the-world-what-are-they">extremetech has some excellent examples of what it can
+do</a>).</p>
+
+<h2 id="logistic-regression">Logistic Regression</h2>
+
+<p>Don’t be fooled by the name, this may be “logistic regression” but it’s a
+classification algorithm, not a regression one. It just happens to use
+regression techniques to do its classification. It looks at a bunch of
+variables and predicts the probability of a data point falling into a specific
+category based on them.</p>
+
+<p>Supervised or Unsupervised? |
+<a href="https://chemicalstatistician.wordpress.com/2014/01/05/machine-%0Alearning-lesson-of-the-day-classification-and-regression/">Supervised</a><br>
+—|—<br>
+Explainable or unexplainable? | Explainable<br>
+Generative or Discriminative? | Discriminative</p>
+
+<p>Used for: Answering whether a set of predictors can accurately categorize
+data.</p>
+
+<p>Specific Use Cases: Image Segmentation and Categorization, Geographic Image
+Processing, Handwriting recognition, Healthcare predictions.</p>
+
+<p>Requirements: You shouldn’t have outliers, also your variables shouldn’t be
+highly correlated with each other.</p>
+
+<h1 id="regression">Regression</h1>
+
+<p>Now we’re going to break down all the algorithms you can use for regression
+and the characteristics of each. Regression itself is all about predicting
+future data based on past data.</p>
+
+<blockquote>
+  <p>“A good first rule for choosing a method is choose one that you understand
+very well.</p>
+
+</blockquote>
+
+<blockquote>
+  <p>It’s a theoretical fact that none of these methods are universally any
+better than the other, but I’d argue that perhaps more surprisingly there
+isn’t even often a practical difference that is more significant than who is
+using the tool.</p>
+
+</blockquote>
+
+<blockquote>
+  <p>Barring a deep understanding of any of the methods, trees and their various
+ensembles (random forests, rotation forests, bagging) are a good place to
+start because… they have few free parameters and they’re pretty robust to
+common real-world data pathologies like irrelevant features, missing data,
+features of different scales, certain kinds of outliers, and they can handle
+categorical/numerical data side by side.”</p>
+</blockquote>
+
+<blockquote>
+
+</blockquote>
+
+<blockquote>
+  <p>-<a href="https://www.quora.com/profile/Rick-Barber-1">Rick Barber</a></p>
+</blockquote>
+
+<h2 id="linear-regression">Linear Regression</h2>
+
+<p>This algorithm shows the relationship between two variables and how changes in
+one affect the other. But this is not based on individual cases, it’s based on
+an overall conclusions the algorithm draws from the data.</p>
+
+<p>Supervised or Unsupervised? | Unsupervised<br>
+—|—<br>
+Explainable or unexplainable? | Explainable<br>
+Generative or Discriminative? |
+<a href="https://en.wikipedia.org/wiki/Discriminative_model">Discriminative</a></p>
+
+<p>Used for: Showing how a change in one variable will affect another variable</p>
+
+<p>Specific Use Cases: Sales estimations, risk assessment, traffic prediction</p>
+
+<p>Requirements: Not many, famously easy to use and explain. It’s also very fast.
+There are risks of test error and bias affecting your results.</p>
+
+<h2 id="support-vector-machine-algorithm-svms">Support Vector Machine Algorithm (SVMs)</h2>
+
+<p>This algorithm classifies data by drawing a hyperplane (a line or plane)
+between them. It maximizes the distance between the data and the
+hyperplane(s), which means that it tends to be very good at not overfitting.
+It usually does this to classify the data, but when used for regression the
+trajectory of the hyperplane itself is the regression. As a result, it’s great
+at accurately classifying new data based on its training set. The flip side of
+this is that it doesn’t perform well with huge data sets or if the classes
+you’re separating your data into overlap</p>
+
+<p>Supervised or Unsupervised? | Supervised<br>
+—|—<br>
+Explainable or unexplainable? |
+<a href="https://books.google.bg/books?id=GdQoS1igTtgC&amp;pg=PA203&amp;lpg=PA203&amp;dq=is+Na%C3%AFve+Bayes+Classifier+Algorithm+explainable?&amp;source=bl&amp;ots%0A=Tq5NM-pkb6&amp;sig=Hb9q8yf8sRfw-%0AF5NLEEP56yKu10&amp;hl=en&amp;sa=X&amp;ved=0ahUKEwj8_Nj_yvnTAhUFQJoKHYCtBMoQ6AEIUDAI#v=onepage&amp;q=is%20Na%C3%AFve%20Bayes%20Classifier%20Algorithm%20explainable%3F&amp;f=false">Unexplainable</a><br>
+Generative or Discriminative? | Discriminative</p>
+
+<p>Used for: Efficiently classifying data and not overfitting based on the
+training data.</p>
+
+<p>Specific Use Cases:  <a href="http://www.svms.org/regression/TrIn00.pdf">Stock market and other financial
+forecasting</a> (comparing relative
+performance of stocks relative to others in the same sector), <a href="http://www.svms.org/regression/Cao02.pdf">time series
+forecasting</a>, <a href="http://www.svms.org/regression/SBSW.pdf">automatic currency
+control</a>.</p>
+
+<p>Requirements: As mentioned, you don’t want your data set too large. For
+documents, one example showed the ability to generalize decreasing after 1,000
+documents <a href="https://stats.stackexchange.com/questions/47090/increasing-the-%0Asample-size-does-not-help-the-classification-performance">slowly began to
+decrease</a>. You also shouldn’t
+have overlapping classes.</p>
+
+<h2 id="k-nearest-neighbors-1">K-Nearest Neighbors</h2>
+
+<p>When it’s regression, it estimates the value of a point based on the value of
+nearby points instead of its classification based on nearby points. It’s
+<a href="https://www.analyticsvidhya.com/blog/2014/10/introduction-k%0A-neighbours-algorithm-clustering/">considered the simplest classification
+algorithm</a>. Because of its simplicity, it’s very fast
+and the data is very easy to interpret, though its predictive power is more
+average. But <a href="https://mathbabe.org/2013/04/04/k-nearest-neighbors-dangerously-simple/">be careful and scale your
+data</a>
+so it’s directly comparable, otherwise this algorithm can really lead you
+astray.</p>
+
+<p>Supervised or Unsupervised? | Supervised<br>
+—|—<br>
+Explainable or unexplainable? |
+<a href="https://books.google.bg/books?id=EKNoKQ1L4CoC&amp;pg=PA548&amp;lpg=PA548&amp;dq=is+Na%C3%AFve+Bayes+Classifier+Algorithm+explainable?&amp;source=bl&amp;ots=hJAd1VBrdp&amp;sig=NA0sggSWCgZOJZYsSUU9DXcsyXo&amp;hl=en&amp;sa=X&amp;ved=0ahUKEwj8_Nj_yvnTAhUFQJoKHYCtBMoQ6AEIRjAG#v=onepage&amp;q=is%20Na%C3%AFve%20Bayes%20Classifier%20Algorithm%20explainable%3F&amp;f=false">Explainable</a><br>
+Generative or Discriminative? | Generative</p>
+
+<p>Used for: Estimating continuous variables by distance from each other.</p>
+
+<p>Specific Use Cases: Predicting housing prices, loan amounts, and other
+financial indicators.</p>
+
+<p>Requirements: Can be done with &lt;100,000 samples, none of your independent
+variables should have a lot of variance or interact with each other (they
+should be relatively standard and distinct).</p>
+
+<h2 id="decision-trees-1">Decision Trees</h2>
+
+<p>When the variable you’re trying to predict is continuous (meaning it has an
+infinite number of possible values, and not just, say, 1-100), a decision tree
+regression works well. <a href="https://www.dezyre.com/article/top-10-machine-learning-%0Aalgorithms/202">It’s also good if your data is
+incomplete</a>, fast, and accurate.</p>
+
+<p>Supervised or Unsupervised? | <a href="https://www.quora.com/What-are-the-%0Atypical-use-cases-for-different-machine-learning-algorithms">Supervised</a><br>
+—|—<br>
+Explainable or unexplainable? | Explainable<br>
+Generative or Discriminative? | Discriminative</p>
+
+<p>Used for: Quickly and accurately predicting values.</p>
+
+<p>Specific Use Cases: Predicting the price of a consumer good</p>
+
+<p>Requirements: Should be relatively small, the larger it gets the less accurate
+and usable it gets. Relies on your expectations, which could be wrong. In this
+way, these are very human and fallible versions of AI.</p>
+
+<h2 id="random-forests">Random Forests</h2>
+
+<p>Creates a series of decision trees with small random variations and calculates
+each one. Then, it polls the results to come up with an overall prediction. So
+it has all the same requirements as a regular decision tree algorithm because
+it begins with the same type of data.</p>
+
+<p>Supervised or Unsupervised? | <a href="https://www.quora.com/What-are-the-%0Atypical-use-cases-for-different-machine-learning-algorithms">Supervised</a><br>
+—|—<br>
+Explainable or unexplainable? | Explainable<br>
+Generative or Discriminative? | Discriminative</p>
+
+<p>Used for: weighing a number of variables to make predictions.</p>
+
+<p>Specific Use Cases: Predicting income, crop yields, test scores, or home
+prices.</p>
+
+<p>Requirements: Super easy to use, lots of open source options,  overfitting
+isn’t really an issue here. Other than that, it has all the same advantages of
+a regular decision tree</p>
+
+<h2 id="artificial-neural-networks">Artificial Neural Networks</h2>
+
+<p>This is probably the most famous type of classification algorithm. It broadly
+mimics the structure of the human brain by layering artificial neurons. Each
+layer chooses a factor it determines to be important and uses it to make
+choices to give better outputs. This structure makes ANNs very flexible.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Supervised or Unsupervised?</th>
+      <th>Can be either</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Explainable or unexplainable?</td>
+      <td>Unexplainable</td>
+    </tr>
+    <tr>
+      <td>Generative or Discriminative?</td>
+      <td>Can be either</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Used for: When you need a system to figure out how to estimate things and
+don’t care how the system does it.</p>
+
+<p>Specific Use Cases: Predicting prices, crop yields, weather, test scores, and
+much more.</p>
+
+<p>Requirements: Considerable skill is required to build this type of network, it
+needs thousands of cycles to train itself, it’s difficult to troubleshoot when
+issues arise. However, it is extremely powerful when it works.</p>
+
+<h1 id="clustering">Clustering</h1>
+
+<p>Finally, this lesson will break down the two main clustering algorithms.</p>
+
+<p>Remember, clustering algorithms are best when you don’t just want to know what
+categories data fits into, but how alike or similar they are to everything
+else in that category. For example, you could give a clustering algorithm
+stock data and ask it to create categories of stocks based on their
+performance. Then, based on what clusters they fit into and where they end up
+within those clusters, you could chose where you’d like to invest. This is
+different from classification, which will only put a label on the data and
+won’t tell you anything about how different the data within a single category
+is.</p>
+
+<h2 id="k-means-clustering">K Means Clustering</h2>
+
+<p><a href="https://www.google.bg/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;cad=rja&amp;uact=8&amp;ved=0ahUKEwiykqePivzTAhUO1mMKHauxBI4QFggrMAA&amp;url=http%3A%2F%2Fplg.uwaterloo.ca%2F~holt%2Fpapers%2Ficsm05-wu.pdf&amp;usg%0A=AFQjCNH9HDVrr3baaAJy2nALW-vPEhSlew&amp;sig2=SBNgGZMkZZ6Ps3FAGkOn0Q">Better when you already know what clusters you want to divide your data into.
+It’s a very simple algorithm to classify numerical data into
+clusters.</a></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Supervised or Unsupervised?</th>
+      <th>Unsupervised</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Explainable or unexplainable?</td>
+      <td>Explainable</td>
+    </tr>
+    <tr>
+      <td>Generative or Discriminative?</td>
+      <td>Discriminative</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Used for: Dividing data into clusters (where their spacial relationships are
+important) instead of just classes (in which case you would use a classifier
+algorithm).</p>
+
+<p>Specific Use Cases: Some financial analysis, astronomy, agriculture,
+<a href="https://www.quora.com/What-are-the-problems-for-%0Awhich-K-means-algorithm-can-be-a-solution">microprocessor design</a>, and geostatistics.</p>
+
+<p>Requirements: You have to know how many clusters you want. The data has to be
+numerical.</p>
+
+<h2 id="hierarchical-clustering">Hierarchical Clustering</h2>
+
+<p>This clustering algorithm creates a hierarchical structure of clusters and
+does not require you to pre-specify the number of clusters you want. It’s
+deterministic, meaning if the input remains the same, the output will always
+remain the same. It’s also slower to run than K-Means.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Supervised or Unsupervised?</th>
+      <th>Unsupervised</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Explainable or unexplainable?</td>
+      <td>Explainable</td>
+    </tr>
+    <tr>
+      <td>Generative or Discriminative?</td>
+      <td>Discriminative</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Used for: Creating ranked clusters.</p>
+
+<p>Specific Use Cases: Search engine queries, image classification (but only part
+of the process), and document classification</p>
+
+<p>Requirements: Your data has to be numerical.</p>
+
+
+  </div>
+</article>
+
+<footer class="bg-white border-top text-center pt-5">
+  <div class="container-lg px-3 mx-auto">
+
+    <div class="d-flex flex-wrap flex-items-stretch">
+      <div class="col-12 col-sm-6 mb-4 col-border">
+        <div class="height-full p-5">
+          <img src="/assets/images/illos/squirrel.svg" class="little-illo mb-3" alt="squirrel illustration">
+          <h3 class="alt-h3 mb-3">Contribute</h3>
+          <p class="mb-3 p-large">
+            Want to make a suggestion? This content is open source. Help us improve it.
+          </p>
+          <p>
+            <a href="https://github.com/github/opensource.guide/edit/gh-pages/_articles/common-algorthms.md" class="btn btn-outline">
+              Contribute
+            </a>
+          </p>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 mb-4">
+        <div class="height-full p-5">
+          <div id="mc_embed_signup">
+          <form action="//github.us11.list-manage.com/subscribe/post?u=9d7ced8c4bbd6c2f238673f0f&amp;id=b514344ba3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+              <div id="mc_embed_signup_scroll">
+                <img src="/assets/images/illos/bird.svg" class="little-illo mb-3" alt="bird illustration">
+              <h3 class="alt-h3 mb-3">Subscribe to updates</h3>
+
+              <div class="mc-field-group col-12">
+                  <label for="mce-EMAIL" class="d-none">Email Address</label>
+                  <input type="email" placeholder="Email Address" name="EMAIL" class="form-input required email d-block col-10 mx-auto py-2 px-3 mb-3" id="mce-EMAIL" autocomplete="home email">
+                  <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-outline">
+              </div>
+              <div id="mce-responses" class="clear">
+                  <div class="" id="mce-error-response" style="display:none"></div>
+                  <div class="" id="mce-success-response" style="display:none"></div>
+              </div>
+              <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_9d7ced8c4bbd6c2f238673f0f_b514344ba3" tabindex="-1" value=""></div>
+              </div>
+          </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="border-top text-gray py-5">
+      <p class="float-md-right"><a class="text-gray-light text-small" href="/notices/">fine print</a></p>
+
+      <svg height="20" class="octicon octicon-code v-align-middle fill-gray mr-1" aria-label="code" viewbox="0 0 14 16" version="1.1" width="17" role="img"><path d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"></path></svg>
+      with
+      <svg height="20" class="octicon octicon-heart v-align-middle fill-gray mx-1" aria-label="love" viewbox="0 0 12 16" version="1.1" width="15" role="img"><path d="M11.2 3c-.52-.63-1.25-.95-2.2-1-.97 0-1.69.42-2.2 1-.51.58-.78.92-.8 1-.02-.08-.28-.42-.8-1-.52-.58-1.17-1-2.2-1-.95.05-1.69.38-2.2 1-.52.61-.78 1.28-.8 2 0 .52.09 1.52.67 2.67C1.25 8.82 3.01 10.61 6 13c2.98-2.39 4.77-4.17 5.34-5.33C11.91 6.51 12 5.5 12 5c-.02-.72-.28-1.39-.8-2.02V3z"></path></svg>
+      by
+      <a href="https://github.com">
+        <svg height="20" class="octicon octicon-mark-github v-align-middle fill-gray mx-1" aria-label="GitHub" viewbox="0 0 16 16" version="1.1" width="20" role="img"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
+      </a>
+      and <a href="https://github.com/github/opensource.guide/graphs/contributors" class="text-gray">friends</a>
+    </div>
+  </div>
+</footer>
+
+
+      </div>
+    </main>
+
+    <script src="/assets/js/index.js"></script>
+    <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
+    <script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+  </body>
+</html>
